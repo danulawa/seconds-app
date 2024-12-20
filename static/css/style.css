@@ -47,7 +47,7 @@ h1.heading {
 
 .input-field:focus {
     outline: none;
-    box-shadow: 0 0 5px var(--color-primary);
+    box-shadow: 0 0 5px var(--color-primary)!important;
 }
 
 .input-field.is-invalid {
@@ -73,7 +73,7 @@ h1.heading {
 
 .result-container {
     position: relative;
-    height: 1.5em; /* Fixed height for consistent layout */
+    height: 2em; /* Fixed height for consistent layout */
 }
 
 .result-container p {
@@ -89,9 +89,12 @@ h1.heading {
 #result {
     visibility: visible; /* Show result initially */
     color: var(--color-primary);
+    font-size: var(--font-size-large);
+    font-weight: 600;
 }
 
 #error-message {
     color: var(--color-error);
-    font-size: 1rem;
+    font-size: var(--font-size-large);
+    font-weight: 600;
 }

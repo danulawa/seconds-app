@@ -14,7 +14,7 @@ def home():
             "hours": "Hours",
             "minutes": "Minutes",
             "seconds": "Seconds"},
-        "result_heading": "Total Seconds:",
+        "result_heading": "Total Seconds",
         "error_message": "Invalid Input",
     }
     return render_template("index.html", labels=labels)
